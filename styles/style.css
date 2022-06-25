@@ -186,6 +186,7 @@ body{
   grid-template-rows: 50px 1fr 50px;
 
   background-color: white;
+  border-left: 10px solid #f0b429;
 }
 
 .project-title{
@@ -305,6 +306,15 @@ body{
 .trending-icon{
   grid-column: 1 / 2;
   grid-row: 1 / 3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending-icon img{
+  height: 50px;
+  width: 50px;
 }
 
 .trending-id{
